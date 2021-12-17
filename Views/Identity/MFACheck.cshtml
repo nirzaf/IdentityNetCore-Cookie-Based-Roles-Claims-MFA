@@ -1,0 +1,9 @@
+﻿@model MNFACheckViewModel
+
+<form asp-controller="Identity" asp-action="MFACheck" method="post">
+
+    <div class="form-group">
+        Enter Code: <input type="text" asp-for="Code" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
